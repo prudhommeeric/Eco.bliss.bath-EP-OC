@@ -1,0 +1,16 @@
+# Ignorer le dossier node_modules
+node_modules/
+
+# Ignorer le dossier mysql (si spécifique à l'environnement local)
+mysql/
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers systèmes
+Thumbs.db
+.DS_Store
+
+# Ignorer les captures d'écran Cypress
+cypress/screenshots/
+cypress/videos/

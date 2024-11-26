@@ -7,4 +7,9 @@
 /public/bundles/
 /var/
 /vendor/
+node_modules/
+mysql/
+package.json
+yarn.lock
+cypress.config.js
 ###< symfony/framework-bundle ###

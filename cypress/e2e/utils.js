@@ -40,7 +40,6 @@ export const loginAndClearCart = () => {
         },
         failOnStatusCode: false,
     }).then((response) => {
-        cy.wait(1000); // Délai d'attente après la connexion
         console.log('Réponse de loginAndClearCart:', response); // Log pour le débogage
 
         expect(response.status).to.equal(200);
